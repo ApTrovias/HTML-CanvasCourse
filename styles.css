@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#controls {
+    position: absolute;
+    padding:10px;
+    border:2px solid whitesmoke;
+    left:20px;
+    top:20px;
+    width:250px;
+    background-color: rgba(255,255,255);
+}
+
+#button {
+    padding:10px 40px;
+    width: 225px;
+    font-size: 20px;
+}
+
+#label,#input {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+}
